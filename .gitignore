@@ -1,0 +1,7 @@
+*.o
+*.BAK
+*.bin
+*.s68
+*.elf
+*.dasm
+*.map
