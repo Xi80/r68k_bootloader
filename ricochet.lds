@@ -35,7 +35,6 @@ SECTIONS {
 		*(.text*)
 		__text_bottom = .;
 		*(.rodata*)
-		CONSTRUCTORS
 	} > rom
 
 	/*.dataƒZƒNƒVƒ‡ƒ“*/

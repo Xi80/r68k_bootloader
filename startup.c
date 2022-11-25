@@ -44,5 +44,7 @@ static void _reset_handler(void){
 	_memclr(&__bss_top,size);
 	
 	/*Call main()*/
-	asm("jmp main");
+	main();
+	
+	while(1);
 }

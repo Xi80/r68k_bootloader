@@ -11,7 +11,7 @@ PROGRAM 	= $(PROJECT).elf
 TARGET_S	= $(PROJECT).s68
 TARGET_B	= $(PROJECT).bin
 
-CFLAGS		= -g -Os -m68000 -Wall -fomit-frame-pointer
+CFLAGS		= -g -O2 -m68000 -Wall -fomit-frame-pointer
 LDFLAGS 	= -Map $(PROJECT).map -T ricochet.lds -nostdlib
 
 MAKEFILE	= Makefile
